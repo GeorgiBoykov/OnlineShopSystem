@@ -6,18 +6,18 @@ final class Loader
 {
     private static $namespaces = array();
 
-    private function __construct(){
+    protected function __construct(){
 
     }
 
     public static function registerAutoLoad(){
-        spl_autoload_register(array("\MVCFramework\Loader", "autoload"));
+        spl_autoload_register(array("\\MVCFramework\\Loader", "autoload"));
     }
     public static function autoLoad($class){
-        self::loadClass($class);
+        self::includeClass($class);
     }
 
-    public static function loadClass($class){
+    public static function includeClass($class){
         foreach(self::$namespaces as $k => $v){
             if(strpos($class, $k) === 0){
                 $file = str_replace('\\', DIRECTORY_SEPARATOR, $class);

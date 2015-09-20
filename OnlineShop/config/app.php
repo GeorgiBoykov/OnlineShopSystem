@@ -1,4 +1,5 @@
 <?php
-$cnf['namespaces']['OnlineShop']='C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop';
+$cnf['controllers']['DEFAULT_CONTROLLER']='Home';
+$cnf['actions']['DEFAULT_ACTION']='index';
 
 return $cnf;

@@ -1,9 +1,9 @@
 <?php
 
-namespace OnlineShop\Models;
+namespace Models;
 class Category
 {
     public function __construct(){
-        echo "category loaded SSS";
+        echo "categories loaded SSS";
     }
 }

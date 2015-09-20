@@ -12,6 +12,13 @@ class Config {
 
     }
 
+    public static function getInstance() {
+        if (self::$_instance == NULL) {
+            self::$_instance = new Config();
+        }
+        return self::$_instance;
+    }
+
     public function getConfigFolder() {
         return $this->_configFolder;
     }
@@ -25,10 +32,7 @@ class Config {
             //clear old config data
             $this->_configArray = array();
             $this->_configFolder = $_configFolder . DIRECTORY_SEPARATOR;
-            $ns = $this->app['namespaces'];
-            if (is_array($ns)) {
-                Loader::registerNamespaces($ns);
-            }
+
         } else {
             throw new \Exception('Config directory read error:' . $configFolder);
         }
@@ -43,7 +47,7 @@ class Config {
         $_file = realpath($path);
         if ($_file != FALSE && is_file($_file) && is_readable($_file)) {
             $_basename = explode('.php', basename($_file))[0];
-            $this->_configArray[$_basename]=include $_file;
+            $this->_configArray[$_basename] = include $_file;
         } else {
             //TODO
             throw new \Exception('Config file read error:' . $path);
@@ -59,12 +63,5 @@ class Config {
             return $this->_configArray[$name];
         }
         return null;
-    }
-
-    public static function getInstance() {
-        if (self::$_instance == NULL) {
-            self::$_instance = new Config();
-        }
-        return self::$_instance;
     }
 }
