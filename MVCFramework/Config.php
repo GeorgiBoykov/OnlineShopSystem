@@ -8,7 +8,7 @@ class Config {
     private $_configFolder = null;
     private $_configArray = array();
 
-    private function __construct() {
+    protected function __construct() {
 
     }
 
@@ -29,7 +29,7 @@ class Config {
         }
         $_configFolder = realpath($configFolder);
         if ($_configFolder != FALSE && is_dir($_configFolder) && is_readable($_configFolder)) {
-            //clear old config data
+
             $this->_configArray = array();
             $this->_configFolder = $_configFolder . DIRECTORY_SEPARATOR;
 
@@ -41,15 +41,14 @@ class Config {
 
     public function includeConfigFile($path) {
         if (!$path) {
-            //TODO
             throw new \Exception;
         }
+
         $_file = realpath($path);
         if ($_file != FALSE && is_file($_file) && is_readable($_file)) {
             $_basename = explode('.php', basename($_file))[0];
             $this->_configArray[$_basename] = include $_file;
         } else {
-            //TODO
             throw new \Exception('Config file read error:' . $path);
         }
     }

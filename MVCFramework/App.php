@@ -13,12 +13,10 @@ class App
         Loader::registerNamespace('MVCFramework', dirname(__FILE__).DIRECTORY_SEPARATOR);
         Loader::registerAutoLoad();
         $this->_config = Config::getInstance();
-
         //if config folder is not set, use default one
         if ($this->_config->getConfigFolder() == null) {
             $this->setConfigFolder('config');
         }
-
         $this->registerNamespaces();
         $this->_router = Router::getInstance();
     }
@@ -41,7 +39,7 @@ class App
 
     public function registerNamespaces(){
         $ns = $this->_config->app['namespaces'];
-
+        // IF NOT SET IN CONFIG, SET DEFAULT CONTROLLER AND MODELS PATH
         if(is_null($ns) || !array_key_exists("Controllers", $ns)){
             Loader::registerNamespace('Controllers', realpath('controllers'));
         }

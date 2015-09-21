@@ -3,23 +3,16 @@
 namespace MVCFramework;
 
 abstract class BaseController {
-    private $_config = null;
     private $_controllerFullName;
     private $_actionName;
     private $_isViewRendered = false;
 
-    function __construct($controllerName, $actionName) {
-        $this->_config = Config::getInstance();
+    public function __construct($controllerName, $actionName) {
         $this->_controllerFullName = $controllerName;
         $this->_actionName = $actionName;
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $this->isPost = true;
         }
-        $this->onInit();
-    }
-
-    public function onInit() {
-        // Implement initializing logic in the subclasses
     }
 
     public function index() {

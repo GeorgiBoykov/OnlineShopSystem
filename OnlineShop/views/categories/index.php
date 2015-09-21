@@ -1,1 +1,5 @@
-<h1><?= $this->title ?></h1>
+<?php
+
+foreach($this->categories as $category){
+    echo "<h2>$category[1]</h2>";
+}

@@ -23,7 +23,11 @@ class Router
     public function execRoute(){
         $requestParts = $this::parseRequest();
 
-        $this::callController($requestParts[0], $requestParts[1], $requestParts[2]);
+        //try{
+            $this::callController($requestParts[0], $requestParts[1], $requestParts[2]);
+//        } catch (\Exception $ex){
+//            header("Location: /");
+//        }
     }
 
     private function parseRequest(){
