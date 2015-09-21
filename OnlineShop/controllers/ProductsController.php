@@ -2,7 +2,7 @@
 
 namespace Controllers;
 
-use MVCFramework\BaseController;
+use MVCFramework\Controllers\BaseController;
 
 class ProductsController extends BaseController
 {

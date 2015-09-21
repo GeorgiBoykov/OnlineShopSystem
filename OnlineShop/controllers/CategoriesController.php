@@ -1,8 +1,11 @@
 <?php
 
 namespace Controllers;
-use MVCFramework\BaseController;
+use Models\Category;
+use Models\Product;
+use MVCFramework\Controllers\BaseController;
 use MVCFramework\DbAdapter;
+use Views\Categories\CategoryView;
 
 class CategoriesController extends BaseController
 {
@@ -14,7 +17,10 @@ class CategoriesController extends BaseController
     }
 
     public function index() {
-        $this->categories = $this->_db->getAllEntities('training_centers');
+        $categoryData = $this->_db->getEntity('categories', array('id' => 1));
+        $category = new Category($categoryData['name'], $categoryData['description']);
+        $view = new CategoryView($category);
+        $view->render();
     }
 
     public function create(){

@@ -48,6 +48,10 @@ class App
             Loader::registerNamespace('Models', realpath('models'));
         }
 
+        if(is_null($ns) || !array_key_exists("Views", $ns)){
+            Loader::registerNamespace('Views', realpath('views'));
+        }
+
         if (is_array($ns)) {
             Loader::registerNamespaces($ns);
         }

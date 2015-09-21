@@ -14,9 +14,14 @@ class DbAdapter
         $this->_config = Config::getInstance();
         $this->setConnectionData($connectionString, $username, $password);
         $connectionData = $this->getConnectionData();
-        $this->_db = new \PDO(
-            $connectionData[0], $connectionData[1], $connectionData[2],
-            array(\PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
+        try {
+            $this->_db = new \PDO(
+                $connectionData[0], $connectionData[1], $connectionData[2],
+                array(\PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
+        } catch (\PDOException $ex){
+            echo "<br>No connection with database";
+            die;
+        }
     }
 
     private function setConnectionData($connectionString, $username, $password){
@@ -50,22 +55,35 @@ class DbAdapter
     public function getEntity($fromTable, $whereEntityKeyValue){
         $entityColumnWhere = array_keys($whereEntityKeyValue)[0];
         $entityColumnWhereValue = $whereEntityKeyValue[$entityColumnWhere];
+        $sql = "SELECT * FROM $fromTable WHERE $entityColumnWhere = '$entityColumnWhereValue'";
+        $query = $this->_db->prepare($sql);
 
-        $query = $this->_db->query("SELECT * FROM $fromTable WHERE $entityColumnWhere = '$entityColumnWhereValue'");
-        $entity = $query->fetch();
-        return $entity;
+        try {
+            $query->execute();
+            $entity = $query->fetch();
+            return $entity;
+        } catch (\PDOException $e){
+            echo $e->getMessage();
+        }
     }
 
     public function getAllEntities($fromTable, $limit = null){
-        $query = $this->_db->query("SELECT * FROM $fromTable");
+        $sql = "SELECT * FROM $fromTable";
+
         if(!is_null($limit)){
-            $query = $this->_db->query("SELECT * FROM $fromTable LIMIT $limit");
+            $sql = "SELECT * FROM $fromTable LIMIT $limit";
         }
 
-        $entities = $query->fetchAll();
-        return $entities;
-    }
+        $query = $this->_db->prepare($sql);
 
+        try {
+            $query->execute();
+            $entities = $query->fetchAll();
+            return $entities;
+        } catch (\PDOException $e){
+            echo $e->getMessage();
+        }
+    }
 
     public function insertEntity($inTable, $insertData){
 
@@ -89,10 +107,10 @@ class DbAdapter
 
         $sql = "INSERT INTO $inTable (" . implode(",", array_keys($insertData) ) . ") VALUES (" . implode(',', $question_marks).')';
 
-        $stmt = $this->_db->prepare($sql);
+        $query = $this->_db->prepare($sql);
         try {
-            $stmt->execute($insert_values);
-        } catch (PDOException $e){
+            $query->execute($insert_values);
+        } catch (\PDOException $e){
             echo $e->getMessage();
         }
         $this->_db->commit();
@@ -109,10 +127,10 @@ class DbAdapter
 
         $sql = "UPDATE $inTable SET $updateColumn = '$updateValue' WHERE $entityColumnWhere = '$entityColumnWhereValue'";
 
-        $stmt = $this->_db->prepare($sql);
+        $query = $this->_db->prepare($sql);
         try {
-            $stmt->execute();
-        } catch (PDOException $e){
+            $query->execute();
+        } catch (\PDOException $e){
             echo $e->getMessage();
         }
         $this->_db->commit();
@@ -126,10 +144,10 @@ class DbAdapter
 
         $sql = "DELETE FROM $inTable WHERE $entityColumnWhere = '$entityColumnWhereValue'";
 
-        $stmt = $this->_db->prepare($sql);
+        $query = $this->_db->prepare($sql);
         try {
-            $stmt->execute();
-        } catch (PDOException $e){
+            $query->execute();
+        } catch (\PDOException $e){
             echo $e->getMessage();
         }
         $this->_db->commit();
