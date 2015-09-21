@@ -1,8 +1,8 @@
 <?php
 
-namespace Views\Categories;
+namespace OnlineShop\Views\Categories;
 
-use Models\Category;
+use OnlineShop\Models\Category;
 use MVCFramework\Views\BaseView;
 
 class CategoryView extends BaseView

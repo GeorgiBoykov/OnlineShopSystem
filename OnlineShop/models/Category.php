@@ -1,6 +1,6 @@
 <?php
 
-namespace Models;
+namespace OnlineShop\Models;
 class Category
 {
     private $_name = null;

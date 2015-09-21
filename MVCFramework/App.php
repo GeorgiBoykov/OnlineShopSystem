@@ -17,7 +17,7 @@ class App
         if ($this->_config->getConfigFolder() == null) {
             $this->setConfigFolder('config');
         }
-        $this->registerNamespaces();
+        $this->registerRootNamespace();
         $this->_router = Router::getInstance();
     }
 
@@ -37,24 +37,9 @@ class App
         $this->_config->setConfigFolder($path);
     }
 
-    public function registerNamespaces(){
+    public function registerRootNamespace(){
         $ns = $this->_config->app['namespaces'];
-        // IF NOT SET IN CONFIG, SET DEFAULT CONTROLLER AND MODELS PATH
-        if(is_null($ns) || !array_key_exists("Controllers", $ns)){
-            Loader::registerNamespace('Controllers', realpath('controllers'));
-        }
-
-        if(is_null($ns) || !array_key_exists("Models", $ns)){
-            Loader::registerNamespace('Models', realpath('models'));
-        }
-
-        if(is_null($ns) || !array_key_exists("Views", $ns)){
-            Loader::registerNamespace('Views', realpath('views'));
-        }
-
-        if (is_array($ns)) {
-            Loader::registerNamespaces($ns);
-        }
+        Loader::registerNamespace($ns['ROOT_NAMESPACE'], realpath('../'.$ns['ROOT_NAMESPACE']));
     }
 
     public function run(){

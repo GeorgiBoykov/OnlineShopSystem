@@ -1,6 +1,6 @@
 <?php
 
-namespace Controllers;
+namespace OnlineShop\Controllers;
 
 use MVCFramework\Controllers\BaseController;
 

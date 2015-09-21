@@ -39,7 +39,7 @@ class Router
             $controllerName = $requestParts[1];
         }
 
-        $action = $this->_config->app['actions']['DEFAULT_ACTION'];
+        $actionName = $this->_config->app['actions']['DEFAULT_ACTION'];
 
         if (count($requestParts) >= 3 && $requestParts[2] != '') {
             $action = $requestParts[2];
@@ -47,13 +47,13 @@ class Router
 
         $params = array_splice($requestParts, 3);
 
-        return array($controllerName, $action, $params);
+        return array($controllerName, $actionName, $params);
     }
 
     private function callController($controllerName, $action, $params){
         $controllerClassName = ucfirst(strtolower($controllerName)) . 'Controller';
         $controllerClass =
-            'Controllers\\' .ucfirst(strtolower($controllerName)) . 'Controller';
+            $this->_config->app['namespaces']['ROOT_NAMESPACE'] . '\Controllers\\' .$controllerClassName;
 
         $controller = new $controllerClass($controllerClassName, $action);
 

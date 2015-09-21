@@ -1,6 +1,6 @@
 <?php
 
-namespace Views\Home;
+namespace OnlineShop\Views\Home;
 
 use MVCFramework\Views\BaseView;
 

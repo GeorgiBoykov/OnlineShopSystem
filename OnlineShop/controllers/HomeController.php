@@ -1,8 +1,9 @@
 <?php
 
-namespace Controllers;
+namespace OnlineShop\Controllers;
+
 use MVCFramework\Controllers\BaseController;
-use Views\Home\HomeView;
+use OnlineShop\Views\Home\HomeView;
 
 class HomeController extends BaseController
 {

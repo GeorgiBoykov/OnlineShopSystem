@@ -1,11 +1,11 @@
 <?php
 
-namespace Controllers;
-use Models\Category;
-use Models\Product;
+namespace OnlineShop\Controllers;
+
 use MVCFramework\Controllers\BaseController;
 use MVCFramework\DbAdapter;
-use Views\Categories\CategoryView;
+use OnlineShop\Models\Category;
+use OnlineShop\Views\Categories\CategoryView;
 
 class CategoriesController extends BaseController
 {
