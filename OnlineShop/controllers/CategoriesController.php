@@ -8,7 +8,7 @@ use OnlineShop\models\Repositories\CategoriesRepository;
 use OnlineShop\models\viewModels\CategoryViewModel;
 
 /**
- * @Route("categories")
+ *
  */
 class CategoriesController extends BaseController
 {
@@ -29,6 +29,7 @@ class CategoriesController extends BaseController
 
     /**
      * @Route("create")
+     * @Authorize
      */
     public function createCategory($params){
         var_dump($params);

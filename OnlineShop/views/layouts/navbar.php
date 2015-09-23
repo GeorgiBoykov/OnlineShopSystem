@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Online shop</a>
+            <a class="navbar-brand" href="/home">Online shop</a>
         </div>
         <?php if(isset($_SESSION['user_id'])){ include_once("navbar-logged-users.php"); }?>
     </div>

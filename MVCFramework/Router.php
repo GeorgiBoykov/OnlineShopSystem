@@ -47,6 +47,11 @@ class Router
         $controllerFullName = $controllerNamespace . '\Controllers\\' . $controllerName;
         $controller = new $controllerFullName();
 
+        // Check controller for authorization attribute (@Authorize)
+        $controllerAuthorization = count($this->getClassAnnotations($controller)[1]) > 0;
+        if($controllerAuthorization == true && !isset($_SESSION['user_id'])){
+            throw new \Exception("Authorization has been denied for this controller");
+        }
         $actionName = $requestParts[2];
         $customActionRoutes = $this->getAllActionsCustomRoutes($controller);
 
@@ -63,6 +68,11 @@ class Router
             }
         }
 
+        // Check controller for authorization attribute (@Authorize)
+        $actionAuthorization = count($this->getActionAuthorization($controller, $actionName)) > 0;
+        if($actionAuthorization == true && !isset($_SESSION['user_id'])){
+            throw new \Exception("Authorization has been denied for this action");
+        }
         $params = $requestParts[3];
 
         $this::callController($controller, $actionName, $params);
@@ -134,14 +144,6 @@ class Router
         return $params;
     }
 
-    private function getClassCustomRoute($class) {
-        $refClass = new \ReflectionClass($class);
-        $doc = $refClass->getDocComment();
-        preg_match_all("/@Route\(\"(.+)\"\)/", $doc, $annotations);
-
-        return $annotations[1];
-    }
-
     private function getAllClassesCustomRoutes() {
         $classesRoutes = [];
         $declaredControllerFiles = scandir('../controllers');
@@ -151,7 +153,7 @@ class Router
                 $controllerFullClassName =
                     $this->_config->app['namespaces']['ROOT_NAMESPACE'] . '\Controllers\\' .$controllerClassName;
                 $controller = new $controllerFullClassName();
-                $classCustomRoute = $this->getClassCustomRoute($controller)[0];
+                $classCustomRoute = $this->getClassAnnotations($controller)[0];
                 if(trim($classCustomRoute) != ""){
                     $classesRoutes[$classCustomRoute] = $controllerClassName;
                 }
@@ -161,6 +163,15 @@ class Router
         return $classesRoutes;
     }
 
+    private function getClassAnnotations($class) {
+        $refClass = new \ReflectionClass($class);
+        $doc = $refClass->getDocComment();
+        preg_match_all("/@Route\(\"(.+)\"\)/", $doc, $routes);
+        preg_match_all("/@Authorize/", $doc, $authorizations);
+
+        return array($routes[1][0], $authorizations[0]);
+    }
+
     private function getAllActionsCustomRoutes($class)
     {
         $refClass = new \ReflectionClass($class);
@@ -168,12 +179,21 @@ class Router
         $funcsRoutes = [];
         foreach($refFuncs as $refFunc){
             $doc = $refFunc->getDocComment();
-            preg_match_all("/@Route\(\"(.+)\"\)/", $doc, $annotations);
-            if(count($annotations[1]) > 0){
-                $customRoute = $annotations[1][0];
+            preg_match_all("/@Route\(\"(.+)\"\)/", $doc, $routes);
+            if(count($routes[1]) > 0){
+                $customRoute = $routes[1][0];
                 $funcsRoutes[$customRoute] =  $refFunc->getName();
             }
         }
         return $funcsRoutes;
+    }
+
+    private function getActionAuthorization($class, $action)
+    {
+        $refMethod = new \ReflectionMethod($class, $action);
+        $doc = $refMethod->getDocComment();
+        preg_match_all("/@Authorize/", $doc, $authorizations);
+
+        return $authorizations[0];
     }
 }

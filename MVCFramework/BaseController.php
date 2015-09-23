@@ -3,7 +3,6 @@
 namespace MVCFramework;
 
 abstract class BaseController{
-    public $isLogged = false;
     public $config = null;
 
     public function __construct() {
@@ -35,5 +34,9 @@ abstract class BaseController{
     public function redirectToUrl($url) {
         header("Location: " . $url);
         die;
+    }
+
+    public function isLogged(){
+        return isset($_SESSION['user_id']);
     }
 }
