@@ -12,11 +12,13 @@ class App
     protected function __construct(){
         Loader::registerNamespace('MVCFramework', dirname(__FILE__).DIRECTORY_SEPARATOR);
         Loader::registerAutoLoad();
+
         $this->_config = Config::getInstance();
         //if config folder is not set, use default one
         if ($this->_config->getConfigFolder() == null) {
-            $this->setConfigFolder('config');
+            $this->setConfigFolder('../config');
         }
+
         $this->registerRootNamespace();
         $this->_router = Router::getInstance();
     }
@@ -39,7 +41,7 @@ class App
 
     public function registerRootNamespace(){
         $ns = $this->_config->app['namespaces'];
-        Loader::registerNamespace($ns['ROOT_NAMESPACE'], realpath('../'.$ns['ROOT_NAMESPACE']));
+        Loader::registerNamespace($ns['ROOT_NAMESPACE'], realpath('../../'.$ns['ROOT_NAMESPACE']));
     }
 
     public function run(){

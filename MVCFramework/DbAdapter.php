@@ -52,6 +52,19 @@ class DbAdapter
         return array($this->_connectionString, $this->_username, $this->_password);
     }
 
+    public function getEntityById($fromTable, $id){
+        $sql = "SELECT * FROM $fromTable WHERE id = '$id'";
+        $query = $this->_db->prepare($sql);
+
+        try {
+            $query->execute();
+            $entity = $query->fetch();
+            return $entity;
+        } catch (\PDOException $e){
+            echo $e->getMessage();
+        }
+    }
+
     public function getEntity($fromTable, $whereEntityKeyValue){
         $entityColumnWhere = array_keys($whereEntityKeyValue)[0];
         $entityColumnWhereValue = $whereEntityKeyValue[$entityColumnWhere];
@@ -118,7 +131,7 @@ class DbAdapter
 
     public function updateEntity($inTable, $updateColumnData, $whereEntityKeyValue){
         $updateColumn = array_keys($updateColumnData)[0];
-        $updateValue = $updateColumnData[0];
+        $updateValue = $updateColumnData[$updateColumn];
 
         $entityColumnWhere = array_keys($whereEntityKeyValue)[0];
         $entityColumnWhereValue = $whereEntityKeyValue[$entityColumnWhere];

@@ -3,19 +3,44 @@
 namespace OnlineShop\Models;
 class Category
 {
+    private $_id = null;
     private $_name = null;
     private $_description = null;
+    private $_isDeleted;
 
-    public function __construct($name, $description = null){
-        $this->_name = $name;
-        $this->_description = $description;
+    public function __construct($id, $name, $isDeleted, $description = null){
+        $this->setId($id);
+        $this->setName($name);
+        $this->setIsDeleted($isDeleted);
+        $this->setDescription($description);
     }
 
-    public function __get($field){
-        return $this->$field;
+    public function getId(){
+        return $this->_id;
+    }
+    public function setId($value){
+        $this->_id = $value;
     }
 
-    public function __set($field, $value){
-        $this->$field = $value;
+    public function getName(){
+        return $this->_name;
     }
+    public function setName($value){
+        $this->_name = $value;
+    }
+
+    public function getDescription(){
+        return $this->_description;
+    }
+    public function setDescription($value){
+        $this->_description = $value;
+    }
+
+    public function getIsDeleted(){
+        return $this->_isDeleted;
+    }
+    public function setIsDeleted($value){
+        $this->_isDeleted = $value;
+    }
+
 }

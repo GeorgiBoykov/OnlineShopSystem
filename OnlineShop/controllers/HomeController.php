@@ -2,13 +2,17 @@
 
 namespace OnlineShop\Controllers;
 
-use MVCFramework\Controllers\BaseController;
-use OnlineShop\Views\Home\HomeView;
+use MVCFramework\BaseController;
+use OnlineShop\Models\ViewModels\HomeViewModel;
 
 class HomeController extends BaseController
 {
+    public function onInit(){
+    }
+
     public function index() {
-        $view = new HomeView();
+        session_start();
+        $view = new HomeViewModel();
         $view->render();
     }
 }

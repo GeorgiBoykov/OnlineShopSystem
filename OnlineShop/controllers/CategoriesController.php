@@ -2,28 +2,35 @@
 
 namespace OnlineShop\Controllers;
 
-use MVCFramework\Controllers\BaseController;
+use MVCFramework\BaseController;
 use MVCFramework\DbAdapter;
-use OnlineShop\Models\Category;
-use OnlineShop\Views\Categories\CategoryView;
+use OnlineShop\models\Repositories\CategoriesRepository;
+use OnlineShop\models\viewModels\CategoryViewModel;
 
+/**
+ * @Route("categories")
+ */
 class CategoriesController extends BaseController
 {
-    private $_db = null;
+    private $_repo = null;
 
-    public function __construct($controllerName, $actionName){
-        parent::__construct($controllerName, $actionName);
-        $this->_db = new DbAdapter();
+    public function __construct(){
+        parent::__construct();
+        $this->_repo = new CategoriesRepository(new DbAdapter());
     }
 
     public function index() {
-        $categoryData = $this->_db->getEntity('categories', array('id' => 1));
-        $category = new Category($categoryData['name'], $categoryData['description']);
-        $view = new CategoryView($category);
-        $view->render();
+        $categories = $this->_repo->getAll();
+        foreach($categories as $category){
+            $view = new CategoryViewModel($category);
+            $view->render();
+        }
     }
 
-    public function create(){
-
+    /**
+     * @Route("create")
+     */
+    public function createCategory($params){
+        var_dump($params);
     }
 }
