@@ -4,304 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/WebShop/public/css/style.css" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48b637ea-6e12-45f0-8319-974b1d4d456c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/public/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/view_models/AddProductViewModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/AjaxForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/view_models/AsideViewModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/BaseBindingModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/view_models/CartViewModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/repositories/CartsRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/repositories/CategoriesRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/CheckBox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/CsrfToken.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/DropDown.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/Form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/controllers/HomeController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/view_models/HomeViewModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/PasswordField.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/binding_models/ProductBindingModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/view_models/ProductViewModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/controllers/ProductsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/repositories/ProductsRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/view_models/ProductsViewModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/Purchase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/view_models/PurchaseViewModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/RadioButton.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/TextArea.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/TextField.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/controllers/UsersController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/repositories/UsersRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/categories/add-category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/products/add-product.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/public/js/ajaxModule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/cart/cart-preview.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/cart/cart.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/public/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/noty/jquery.noty.packaged.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/layouts/left-aside.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/layouts/navbar-logged-users.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/public/js/notificationModule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/products/product.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/products/products.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/home/recent-products.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/public/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/users/user.php" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\controllers\HomeController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\controllers\ProductsController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\Cart.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\Repositories\CategoriesRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\Repositories\UsersRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\ViewModels\HomeViewModel.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\grunt\.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\grunt\bs-commonjs-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\grunt\bs-glyphicons-data-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\grunt\bs-lessdoc-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\grunt\bs-raw-files-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\grunt\configBridge.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\grunt\sauce_browsers.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\affix.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\alert.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\button.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\modal.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\popover.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\tab.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\transition.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\badges.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\close.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\code.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\forms.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\grid.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\jumbotron.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\labels.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\media.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\background-variant.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\border-radius.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\center-block.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\clearfix.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\forms.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\gradients.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\grid-framework.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\grid.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\hide-text.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\image.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\labels.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\nav-divider.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\nav-vertical-align.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\opacity.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\panels.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\progress-bar.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\reset-filter.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\reset-text.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\resize.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\responsive-visibility.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\size.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\tab-focus.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\table-row.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\text-emphasis.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\text-overflow.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\vendor-prefixes.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\modals.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\navs.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\normalize.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\pager.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\panels.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\print.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\responsive-embed.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\responsive-utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\tables.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\theme.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\type.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\variables.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\wells.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\.jscsrc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\AUTHORS.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\jsonp.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\load.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\parseJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\parseXML.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\script.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\var\nonce.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\var\rquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\xhr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\attributes\attr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\attributes\classes.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\attributes\prop.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\attributes\support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\attributes\val.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\core.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\core\access.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\core\init.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\core\parseHTML.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\core\ready.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\core\var\rsingleTag.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\addGetHookIf.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\curCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\defaultDisplay.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\hiddenVisibleSelectors.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\swap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\var\cssExpand.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\var\getStyles.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\var\isHidden.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\var\rmargin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\var\rnumnonpx.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\data.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\data\Data.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\data\accepts.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\data\var\data_priv.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\data\var\data_user.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\deprecated.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\dimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\effects.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\effects\Tween.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\effects\animatedSelector.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\event.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\event\ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\event\alias.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\event\support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\exports\amd.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\exports\global.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\intro.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\manipulation.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\manipulation\_evalUrl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\manipulation\support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\manipulation\var\rcheckableType.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\offset.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\outro.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\queue.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\queue\delay.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\selector-native.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\selector-sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\selector.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\serialize.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\dist\sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\dist\sizzle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\dist\sizzle.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\data\empty.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\data\mixed_sort.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\data\testinit.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\unit\extending.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\unit\selector.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\unit\utilities.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\traversing.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\traversing\findFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\traversing\var\rneedsContext.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\arr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\class2type.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\concat.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\hasOwn.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\indexOf.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\pnum.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\push.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\rnotwhite.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\slice.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\strundefined.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\support.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\toString.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\views\home\home.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\views\layouts\navbar-logged-users.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\views\products\index.php" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\areas\forum\controllers\CommentsController.php" afterPath="$PROJECT_DIR$/WebShop/areas/forum/controllers/CommentsController.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\areas\forum\controllers\TopicsController.php" afterPath="$PROJECT_DIR$/WebShop/areas/forum/controllers/TopicsController.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\config\app.php" afterPath="$PROJECT_DIR$/WebShop/config/app.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\config\db.php" afterPath="$PROJECT_DIR$/WebShop/config/db.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\controllers\AuthenticationController.php" afterPath="$PROJECT_DIR$/WebShop/controllers/AuthenticationController.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\controllers\CategoriesController.php" afterPath="$PROJECT_DIR$/WebShop/controllers/CategoriesController.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\BindingModels\CategoryBindingModel.php" afterPath="$PROJECT_DIR$/WebShop/models/binding_models/CategoryBindingModel.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\BindingModels\LoginBindingModel.php" afterPath="$PROJECT_DIR$/WebShop/models/binding_models/LoginBindingModel.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\BindingModels\UserBindingModel.php" afterPath="$PROJECT_DIR$/WebShop/models/binding_models/UserBindingModel.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\Category.php" afterPath="$PROJECT_DIR$/WebShop/models/Category.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\Product.php" afterPath="$PROJECT_DIR$/WebShop/models/Product.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\Role.php" afterPath="$PROJECT_DIR$/WebShop/models/Role.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\User.php" afterPath="$PROJECT_DIR$/WebShop/models/User.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\ViewModels\AuthenticationViewModel.php" afterPath="$PROJECT_DIR$/WebShop/models/view_models/AuthenticationViewModel.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\ViewModels\CategoryViewModel.php" afterPath="$PROJECT_DIR$/WebShop/models/view_models/CategoryViewModel.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\ViewModels\UserViewModel.php" afterPath="$PROJECT_DIR$/WebShop/models/view_models/UserViewModel.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\css\bootstrap-theme.css" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\css\bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\css\bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\css\bootstrap.css" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/css/bootstrap.css" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\css\bootstrap.css.map" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\js\bootstrap.js" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/js/bootstrap.js" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\js\npm.js" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/js/npm.js" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\dist\jquery.js" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/jquery/dist/jquery.js" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\dist\jquery.min.js" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/jquery/dist/jquery.min.js" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\dist\jquery.min.map" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/jquery/dist/jquery.min.map" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\views\authentication\authentication.php" afterPath="$PROJECT_DIR$/WebShop/views/authentication/authentication.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\views\categories\category.php" afterPath="$PROJECT_DIR$/WebShop/views/categories/category.php" />
-      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\views\layouts\navbar.php" afterPath="$PROJECT_DIR$/WebShop/views/layouts/navbar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MVCFramework/BaseController.php" afterPath="$PROJECT_DIR$/MVCFramework/BaseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MVCFramework/DbAdapter.php" afterPath="$PROJECT_DIR$/MVCFramework/DbAdapter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MVCFramework/Loader.php" afterPath="$PROJECT_DIR$/MVCFramework/Loader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/OnlineShopSystem.iml" afterPath="$PROJECT_DIR$/.idea/OnlineShopSystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MVCFramework/Router.php" afterPath="$PROJECT_DIR$/MVCFramework/Router.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="48b637ea-6e12-45f0-8319-974b1d4d456c" name="Default" comment="" />
     <ignored path="OnlineShopSystem.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -321,64 +24,7 @@
     <favorites_list name="OnlineShopSystem" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ProductsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebShop/controllers/ProductsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="185" column="9" selection-start-line="180" selection-start-column="7" selection-end-line="185" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoriesController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebShop/controllers/CategoriesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.192307">
-              <caret line="72" column="53" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recent-products.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebShop/views/home/recent-products.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <marker date="1443939530771" expanded="true" signature="369:650" placeholder="..." />
-                <marker date="1443939530771" expanded="true" signature="422:646" placeholder="..." />
-                <marker date="1443939530771" expanded="true" signature="475:617" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserViewModel.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebShop/models/view_models/UserViewModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7478849">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebShop/views/products/product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-              <folding>
-                <marker date="1443899668919" expanded="true" signature="718:819" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -402,7 +48,6 @@
         <option value="$PROJECT_DIR$/WebShop/public/index.php" />
         <option value="$PROJECT_DIR$/WebShop/models/view_models/HomeViewModel.php" />
         <option value="$PROJECT_DIR$/WebShop/views/cart/cart.php" />
-        <option value="$PROJECT_DIR$/WebShop/models/view_models/UserViewModel.php" />
         <option value="$PROJECT_DIR$/WebShop/views/layouts/navbar-logged-users.php" />
         <option value="$PROJECT_DIR$/WebShop/views/users/user.php" />
         <option value="$PROJECT_DIR$/MVCFramework/ViewHelpers/DropDown.php" />
@@ -444,6 +89,7 @@
         <option value="$PROJECT_DIR$/WebShop/views/products/product.php" />
         <option value="$PROJECT_DIR$/WebShop/controllers/CategoriesController.php" />
         <option value="$PROJECT_DIR$/WebShop/views/home/recent-products.php" />
+        <option value="$PROJECT_DIR$/WebShop/models/view_models/UserViewModel.php" />
       </list>
     </option>
   </component>
@@ -503,110 +149,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="OnlineShopSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShopSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShopSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShopSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShopSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShopSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShopSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShopSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShopSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view_models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShopSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShopSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShopSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShopSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MVCFramework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -686,7 +228,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2855987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -694,19 +236,19 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17364341" sideWeight="0.4935275" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17364341" sideWeight="0.4935275" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -725,13 +267,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebShop/controllers/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebShop/areas/forum/controllers/CommentsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1057,10 +592,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebShop/views/products/product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.4890017">
           <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
-            <marker date="1443899668919" expanded="true" signature="718:819" placeholder="..." />
+            <marker date="1443939970851" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1086,17 +621,25 @@
         <state vertical-scroll-proportion="-6.5384617">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <marker date="1443939530771" expanded="true" signature="369:650" placeholder="..." />
-            <marker date="1443939530771" expanded="true" signature="422:646" placeholder="..." />
-            <marker date="1443939530771" expanded="true" signature="475:617" placeholder="..." />
+            <marker date="1443939970812" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443939970812" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443939970812" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebShop/models/view_models/UserViewModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7478849">
+        <state vertical-scroll-proportion="-17.0">
           <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVCFramework/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4450085">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
