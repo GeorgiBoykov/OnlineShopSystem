@@ -1,15 +1,306 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/WebShop/public/css/style.css" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff95698a-387f-48d9-b6eb-eef2f8c35937" name="Default" comment="">
+    <list default="true" id="48b637ea-6e12-45f0-8319-974b1d4d456c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/public/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/view_models/AddProductViewModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/AjaxForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/view_models/AsideViewModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/BaseBindingModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/view_models/CartViewModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/repositories/CartsRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/repositories/CategoriesRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/CheckBox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/CsrfToken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/DropDown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/Form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/controllers/HomeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/view_models/HomeViewModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/PasswordField.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/binding_models/ProductBindingModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/view_models/ProductViewModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/controllers/ProductsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/repositories/ProductsRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/view_models/ProductsViewModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/Purchase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/view_models/PurchaseViewModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/RadioButton.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/TextArea.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MVCFramework/ViewHelpers/TextField.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/controllers/UsersController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/models/repositories/UsersRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/categories/add-category.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/products/add-product.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/public/js/ajaxModule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/cart/cart-preview.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/cart/cart.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/public/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/noty/jquery.noty.packaged.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/layouts/left-aside.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/layouts/navbar-logged-users.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/public/js/notificationModule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/products/product.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/products/products.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/home/recent-products.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/public/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebShop/views/users/user.php" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\controllers\HomeController.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\controllers\ProductsController.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\Cart.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\Repositories\CategoriesRepository.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\Repositories\UsersRepository.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\ViewModels\HomeViewModel.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\grunt\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\grunt\bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\grunt\bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\grunt\bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\grunt\bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\grunt\configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\grunt\sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\affix.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\alert.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\button.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\modal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\popover.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\tab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\js\transition.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\badges.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\close.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\code.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\media.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\image.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\resize.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\size.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\mixins\vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\modals.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\navs.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\pager.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\print.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\tables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\theme.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\type.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\less\wells.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\AUTHORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\load.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\parseJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\script.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\var\nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\var\rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\ajax\xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\attributes\attr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\attributes\classes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\attributes\prop.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\attributes\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\attributes\val.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\core.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\core\access.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\core\init.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\core\parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\core\ready.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\core\var\rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\addGetHookIf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\defaultDisplay.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\swap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\var\cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\var\getStyles.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\var\isHidden.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\var\rmargin.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\css\var\rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\data\Data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\data\accepts.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\data\var\data_priv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\data\var\data_user.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\effects.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\effects\Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\effects\animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\event.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\event\ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\event\alias.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\event\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\exports\amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\exports\global.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\intro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\manipulation\_evalUrl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\manipulation\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\manipulation\var\rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\offset.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\outro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\queue.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\queue\delay.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\selector-native.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\selector-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\selector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\dist\sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\dist\sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\dist\sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\data\empty.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\data\mixed_sort.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\data\testinit.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\unit\extending.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\unit\selector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\sizzle\test\unit\utilities.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\traversing\findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\traversing\var\rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\arr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\concat.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\push.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\rnotwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\slice.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\strundefined.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\var\toString.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\src\wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\views\home\home.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\views\layouts\navbar-logged-users.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\views\products\index.php" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\areas\forum\controllers\CommentsController.php" afterPath="$PROJECT_DIR$/WebShop/areas/forum/controllers/CommentsController.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\areas\forum\controllers\TopicsController.php" afterPath="$PROJECT_DIR$/WebShop/areas/forum/controllers/TopicsController.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\config\app.php" afterPath="$PROJECT_DIR$/WebShop/config/app.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\config\db.php" afterPath="$PROJECT_DIR$/WebShop/config/db.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\controllers\AuthenticationController.php" afterPath="$PROJECT_DIR$/WebShop/controllers/AuthenticationController.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\controllers\CategoriesController.php" afterPath="$PROJECT_DIR$/WebShop/controllers/CategoriesController.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\BindingModels\CategoryBindingModel.php" afterPath="$PROJECT_DIR$/WebShop/models/binding_models/CategoryBindingModel.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\BindingModels\LoginBindingModel.php" afterPath="$PROJECT_DIR$/WebShop/models/binding_models/LoginBindingModel.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\BindingModels\UserBindingModel.php" afterPath="$PROJECT_DIR$/WebShop/models/binding_models/UserBindingModel.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\Category.php" afterPath="$PROJECT_DIR$/WebShop/models/Category.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\Product.php" afterPath="$PROJECT_DIR$/WebShop/models/Product.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\Role.php" afterPath="$PROJECT_DIR$/WebShop/models/Role.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\User.php" afterPath="$PROJECT_DIR$/WebShop/models/User.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\ViewModels\AuthenticationViewModel.php" afterPath="$PROJECT_DIR$/WebShop/models/view_models/AuthenticationViewModel.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\ViewModels\CategoryViewModel.php" afterPath="$PROJECT_DIR$/WebShop/models/view_models/CategoryViewModel.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\ViewModels\UserViewModel.php" afterPath="$PROJECT_DIR$/WebShop/models/view_models/UserViewModel.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\css\bootstrap-theme.css" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/css/bootstrap-theme.css" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\css\bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/css/bootstrap-theme.css.map" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\css\bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\css\bootstrap.css" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/css/bootstrap.css" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\css\bootstrap.css.map" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/css/bootstrap.css.map" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\js\bootstrap.js" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/js/bootstrap.js" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\bootstrap\dist\js\npm.js" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/bootstrap/dist/js/npm.js" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\dist\jquery.js" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/jquery/dist/jquery.js" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\dist\jquery.min.js" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/jquery/dist/jquery.min.js" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules\jquery\dist\jquery.min.map" afterPath="$PROJECT_DIR$/WebShop/public/node_modules/jquery/dist/jquery.min.map" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\views\authentication\authentication.php" afterPath="$PROJECT_DIR$/WebShop/views/authentication/authentication.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\views\categories\category.php" afterPath="$PROJECT_DIR$/WebShop/views/categories/category.php" />
+      <change type="MOVED" beforePath="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\views\layouts\navbar.php" afterPath="$PROJECT_DIR$/WebShop/views/layouts/navbar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MVCFramework/BaseController.php" afterPath="$PROJECT_DIR$/MVCFramework/BaseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OnlineShop/controllers/CategoriesController.php" afterPath="$PROJECT_DIR$/OnlineShop/controllers/CategoriesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OnlineShop/controllers/HomeController.php" afterPath="$PROJECT_DIR$/OnlineShop/controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OnlineShop/models/ViewModels/HomeViewModel.php" afterPath="$PROJECT_DIR$/OnlineShop/models/ViewModels/HomeViewModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MVCFramework/DbAdapter.php" afterPath="$PROJECT_DIR$/MVCFramework/DbAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MVCFramework/Loader.php" afterPath="$PROJECT_DIR$/MVCFramework/Loader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/OnlineShopSystem.iml" afterPath="$PROJECT_DIR$/.idea/OnlineShopSystem.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MVCFramework/Router.php" afterPath="$PROJECT_DIR$/MVCFramework/Router.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OnlineShop/views/home/home.php" afterPath="$PROJECT_DIR$/OnlineShop/views/home/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OnlineShop/views/layouts/navbar.php" afterPath="$PROJECT_DIR$/OnlineShop/views/layouts/navbar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OnlineShop/public/css/style.css" afterPath="$PROJECT_DIR$/OnlineShop/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OnlineShopSystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,57 +322,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="ProductsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebShop/controllers/ProductsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="185" column="9" selection-start-line="180" selection-start-column="7" selection-end-line="185" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CategoriesController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OnlineShop/controllers/CategoriesController.php">
+        <entry file="file://$PROJECT_DIR$/WebShop/controllers/CategoriesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.846153">
-              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-              <folding>
-                <element signature="e#42#74#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navbar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OnlineShop/views/layouts/navbar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="47" />
+            <state vertical-scroll-proportion="-9.192307">
+              <caret line="72" column="53" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OnlineShop/views/home/home.php">
+      <file leaf-file-name="recent-products.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebShop/views/home/recent-products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.028764805">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OnlineShop/controllers/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.3846154">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.5384617">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <element signature="e#42#74#0#PHP" expanded="true" />
+                <marker date="1443939530771" expanded="true" signature="369:650" placeholder="..." />
+                <marker date="1443939530771" expanded="true" signature="422:646" placeholder="..." />
+                <marker date="1443939530771" expanded="true" signature="475:617" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthenticationController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OnlineShop/controllers/AuthenticationController.php">
+      <file leaf-file-name="UserViewModel.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebShop/models/view_models/UserViewModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7478849">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebShop/views/products/product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
               <folding>
-                <element signature="e#43#75#0#PHP" expanded="true" />
+                <marker date="1443899668919" expanded="true" signature="718:819" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -92,69 +383,67 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Html5" />
-        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MVCFramework/Controllers/BaseController.php" />
-        <option value="$PROJECT_DIR$/MVCFramework/BaseModel.php" />
-        <option value="$PROJECT_DIR$/MVCFramework/BaseView.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/views/authentication/AuthenticationView.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/views/categories/CategoryView.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/views/home/HomeView.php" />
-        <option value="$PROJECT_DIR$/MVCFramework/BaseViewModel.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/viewModels/HomeViewModel.php" />
-        <option value="$PROJECT_DIR$/MVCFramework/App.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/viewModels/AuthenticationViewModel.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/bindingModels/UserBindingModel.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/bindingModels/LoginBindingModel.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/viewModels/CategoryViewModel.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/controllers/UsersController.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/controllers/ProductsController.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/areas/forum/controllers/CommentsController.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/areas/forum/controllers/TopicsController.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/areas/test/controllers/TestController.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/areas/test/controllers/AuthenticationController.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/public/css/styles.css" />
-        <option value="$PROJECT_DIR$/OnlineShop/views/authentication/authentication.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/views/nav/navbar.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/config/app.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/ViewModels/AuthenticationViewModel.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/Role.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/Product.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/Category.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/Cart.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/BindingModels/UserBindingModel.php" />
-        <option value="$PROJECT_DIR$/MVCFramework/DbAdapter.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/Repositories/UserRepository.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/ViewModels/NavbarViewModel.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/public/node_modules/bootstrap/dist/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/OnlineShop/views/layouts/navbar-logged-users.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/public/index.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/User.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/Repositories/UsersRepository.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/ViewModels/UserViewModel.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/controllers/AuthenticationController.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/BindingModels/CategoryBindingModel.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/Repositories/CategoriesRepository.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/ViewModels/CategoryViewModel.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/views/categories/category.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/models/ViewModels/HomeViewModel.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/public/css/style.css" />
-        <option value="$PROJECT_DIR$/OnlineShop/views/layouts/navbar.php" />
-        <option value="$PROJECT_DIR$/MVCFramework/BaseController.php" />
+        <option value="$PROJECT_DIR$/WebShop/models/Purchase.php" />
+        <option value="$PROJECT_DIR$/WebShop/models/view_models/PurchaseViewModel.php" />
+        <option value="$PROJECT_DIR$/WebShop/models/binding_models/PurchaseBindingModel.php" />
         <option value="$PROJECT_DIR$/MVCFramework/Router.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/controllers/CategoriesController.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/OnlineShop/views/home/home.php" />
+        <option value="$PROJECT_DIR$/MVCFramework/BaseViewModel.php" />
+        <option value="$PROJECT_DIR$/MVCFramework/BaseController.php" />
+        <option value="$PROJECT_DIR$/WebShop/public/index.php" />
+        <option value="$PROJECT_DIR$/WebShop/models/view_models/HomeViewModel.php" />
+        <option value="$PROJECT_DIR$/WebShop/views/cart/cart.php" />
+        <option value="$PROJECT_DIR$/WebShop/models/view_models/UserViewModel.php" />
+        <option value="$PROJECT_DIR$/WebShop/views/layouts/navbar-logged-users.php" />
+        <option value="$PROJECT_DIR$/WebShop/views/users/user.php" />
+        <option value="$PROJECT_DIR$/MVCFramework/ViewHelpers/DropDown.php" />
+        <option value="$PROJECT_DIR$/WebShop/models/view_models/AddProductViewModel.php" />
+        <option value="$PROJECT_DIR$/MVCFramework/ViewHelpers/TextField.php" />
+        <option value="$PROJECT_DIR$/MVCFramework/ViewHelpers/PasswordField.php" />
+        <option value="$PROJECT_DIR$/WebShop/public/js/notificationModule.js" />
+        <option value="$PROJECT_DIR$/WebShop/models/binding_models/LoginBindingModel.php" />
+        <option value="$PROJECT_DIR$/WebShop/models/binding_models/UserBindingModel.php" />
+        <option value="$PROJECT_DIR$/WebShop/models/binding_models/ProductBindingModel.php" />
+        <option value="$PROJECT_DIR$/WebShop/models/binding_models/CategoryBindingModel.php" />
+        <option value="$PROJECT_DIR$/MVCFramework/BaseBindingModel.php" />
+        <option value="$PROJECT_DIR$/WebShop/models/repositories/UsersRepository.php" />
+        <option value="$PROJECT_DIR$/WebShop/models/repositories/CartsRepository.php" />
+        <option value="$PROJECT_DIR$/MVCFramework/ViewHelpers/CSRF.php" />
+        <option value="$PROJECT_DIR$/MVCFramework/ViewHelpers/CsrfToken.php" />
+        <option value="$PROJECT_DIR$/MVCFramework/ViewHelpers/TextArea.php" />
+        <option value="$PROJECT_DIR$/MVCFramework/ViewHelpers/RadioButton.php" />
+        <option value="$PROJECT_DIR$/MVCFramework/ViewHelpers/CheckBox.php" />
+        <option value="$PROJECT_DIR$/MVCFramework/ViewHelpers/Form.php" />
+        <option value="$PROJECT_DIR$/WebShop/views/authentication/authentication.php" />
+        <option value="$PROJECT_DIR$/MVCFramework/ViewHelpers/AjaxForm.php" />
+        <option value="$PROJECT_DIR$/WebShop/controllers/AuthenticationController.php" />
+        <option value="$PROJECT_DIR$/WebShop/views/layouts/left-aside.php" />
+        <option value="$PROJECT_DIR$/WebShop/views/categories/add-category.php" />
+        <option value="$PROJECT_DIR$/WebShop/views/products/products.php" />
+        <option value="$PROJECT_DIR$/WebShop/public/css/style.css" />
+        <option value="$PROJECT_DIR$/WebShop/views/categories/category.php" />
+        <option value="$PROJECT_DIR$/WebShop/public/js/ajaxModule.js" />
+        <option value="$PROJECT_DIR$/WebShop/areas/forum/views/topics.php" />
+        <option value="$PROJECT_DIR$/WebShop/areas/forum/controllers/TopicsController.php" />
+        <option value="$PROJECT_DIR$/WebShop/views/products/add-product.php" />
+        <option value="$PROJECT_DIR$/WebShop/controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/WebShop/models/repositories/CategoriesRepository.php" />
+        <option value="$PROJECT_DIR$/MVCFramework/DbAdapter.php" />
+        <option value="$PROJECT_DIR$/WebShop/controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/WebShop/models/repositories/ProductsRepository.php" />
+        <option value="$PROJECT_DIR$/WebShop/controllers/ProductsController.php" />
+        <option value="$PROJECT_DIR$/WebShop/views/products/product.php" />
+        <option value="$PROJECT_DIR$/WebShop/controllers/CategoriesController.php" />
+        <option value="$PROJECT_DIR$/WebShop/views/home/recent-products.php" />
       </list>
     </option>
   </component>
@@ -175,14 +464,14 @@
     <option name="width" value="1296" />
     <option name="height" value="776" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -198,6 +487,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -226,7 +516,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemId" value="WebShop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -244,15 +534,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="WebShop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,7 +548,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemId" value="WebShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,7 +566,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemId" value="WebShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view_models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShopSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShopSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebShop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -288,56 +596,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShopSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShopSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVCFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="122" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="150" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="152" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="826" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="144" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="143" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="144" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="819" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebShop/public" />
     <property name="FullScreen" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop" />
+      <recent name="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\WebShop\public\css" />
+      <recent name="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\WebShop\public\node_modules\noty" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public\node_modules" />
-      <recent name="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\public" />
-      <recent name="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\models\viewModels" />
-      <recent name="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\MVCFramework" />
-      <recent name="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\MVCFramework\Controllers" />
+      <recent name="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\WebShop\views\layouts" />
+      <recent name="C:\Users\Georgi\Documents\GitHub\OnlineShopSystem\OnlineShop\views\home" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Built-in Web Server.Default">
+  <component name="RunManager" selected="PHP Built-in Web Server.OnlineShop">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -348,22 +646,13 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/OnlineShop/public">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -375,11 +664,11 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Default" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/OnlineShop/public">
+    <configuration default="false" name="OnlineShop" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/WebShop/public">
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="PHP Built-in Web Server.Default" />
+      <item index="0" class="java.lang.String" itemvalue="PHP Built-in Web Server.OnlineShop" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -388,10 +677,10 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ff95698a-387f-48d9-b6eb-eef2f8c35937" name="Default" comment="" />
-      <created>1442648265882</created>
+      <changelist id="48b637ea-6e12-45f0-8319-974b1d4d456c" name="Default" comment="" />
+      <created>1443194069528</created>
       <option name="number" value="Default" />
-      <updated>1442648265882</updated>
+      <updated>1443194069528</updated>
     </task>
     <servers />
   </component>
@@ -399,25 +688,25 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22330096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2855987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298351" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17080745" sideWeight="0.50647247" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298351" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20775194" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17364341" sideWeight="0.4935275" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -432,434 +721,382 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MVCFramework/Router.php">
+    <entry file="file://$PROJECT_DIR$/WebShop/controllers/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding />
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/controllers/ProductsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/views/products/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="1" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#42#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVCFramework/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVCFramework/Loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVCFramework/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVCFramework/App.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVCFramework/BaseController.php">
+    <entry file="file://$PROJECT_DIR$/WebShop/areas/forum/controllers/CommentsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/models/view_models/PurchaseViewModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8374126">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/config/db.php">
+    <entry file="file://$PROJECT_DIR$/WebShop/views/layouts/navbar-logged-users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="1" column="76" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
+        <state vertical-scroll-proportion="0.11888112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/views/products/index.php">
+    <entry file="file://$PROJECT_DIR$/WebShop/views/users/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05762712">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/models/view_models/AddProductViewModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVCFramework/ViewHelpers/PasswordField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25084746">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/public/js/notificationModule.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVCFramework/Loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.538462">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/public/node_modules/bootstrap/js/tab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13776337">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVCFramework/BaseModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05752961">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/models/BindingModels/LoginBindingModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6040609">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/areas/forum/controllers/CommentsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28764805">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/areas/forum/controllers/TopicsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46023688">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVCFramework/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28764805">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MVCFramework/BaseViewModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/public/node_modules/jquery/src/css/var/rmargin.js">
+    <entry file="file://$PROJECT_DIR$/WebShop/models/binding_models/LoginBindingModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.5">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/models/binding_models/ProductBindingModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3076923">
+          <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVCFramework/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.26923">
+          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/models/binding_models/UserBindingModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6711864">
+          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/models/Purchase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/models/view_models/ProductViewModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.961538">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/models/repositories/CartsRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-63.423077">
+          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/models/repositories/UsersRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36610168">
+          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVCFramework/BaseBindingModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVCFramework/ViewHelpers/CsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVCFramework/ViewHelpers/TextArea.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.807692">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVCFramework/ViewHelpers/TextField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.961538">
+          <caret line="31" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVCFramework/ViewHelpers/CheckBox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54745764">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVCFramework/ViewHelpers/RadioButton.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16440678">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVCFramework/ViewHelpers/DropDown.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.159322">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVCFramework/ViewHelpers/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9135593">
+          <caret line="36" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/views/cart/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76949155">
+          <caret line="49" column="7" selection-start-line="49" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MVCFramework/ViewHelpers/AjaxForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6254237">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/views/authentication/authentication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="56" column="39" selection-start-line="51" selection-start-column="28" selection-end-line="56" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/models/binding_models/CategoryBindingModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.115385">
+          <caret line="20" column="5" selection-start-line="19" selection-start-column="22" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/models/view_models/AsideViewModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MVCFramework/App.php">
+    <entry file="file://$PROJECT_DIR$/WebShop/models/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.17935702">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-25.5">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/config/app.php">
+    <entry file="file://$PROJECT_DIR$/WebShop/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-          <folding />
+        <state vertical-scroll-proportion="0.47402596">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/models/Role.php">
+    <entry file="file://$PROJECT_DIR$/WebShop/views/layouts/left-aside.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31641287">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="26" />
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/views/categories/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="64" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/public/js/ajaxModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33766234">
+          <caret line="190" column="30" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/areas/forum/controllers/TopicsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5762712">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/views/categories/add-category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1440678">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/views/products/add-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54745764">
+          <caret line="52" column="62" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/views/products/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11525424">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/models/repositories/CategoriesRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.884615">
+          <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MVCFramework/DbAdapter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5837563">
-          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding>
-            <marker date="1442954095167" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1442954095167" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1442954095167" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1442954095167" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1442954095167" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1442954095167" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/models/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8629442">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23728813">
+          <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/models/Cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4890017">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/models/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028764805">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/public/node_modules/bootstrap/dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8897893">
-          <caret line="6800" column="0" selection-start-line="6800" selection-start-column="0" selection-end-line="6800" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/views/layouts/navbar-logged-users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/views/authentication/authentication.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.4957699">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20135364">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4314721">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/models/BindingModels/UserBindingModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9137056">
-          <caret line="53" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/models/Repositories/UsersRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6040609">
-          <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
-          <folding>
-            <element signature="e#136#163#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/models/BindingModels/CategoryBindingModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/models/Repositories/CategoriesRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="e#51#78#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/models/ViewModels/AuthenticationViewModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31641287">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/models/ViewModels/UserViewModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80541456">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#134#165#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/views/categories/category.php">
+    <entry file="file://$PROJECT_DIR$/WebShop/controllers/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="65" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/models/repositories/ProductsRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="28" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/models/ViewModels/CategoryViewModel.php">
+    <entry file="file://$PROJECT_DIR$/WebShop/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="15" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/models/ViewModels/HomeViewModel.php">
+    <entry file="file://$PROJECT_DIR$/WebShop/controllers/AuthenticationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25888324">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
+        <state vertical-scroll-proportion="0.60334027">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/WebShop/views/products/product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.055105347">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVCFramework/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4890017">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/controllers/ProductsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MVCFramework/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5972927">
-          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3846154">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
-            <element signature="e#42#74#0#PHP" expanded="true" />
+            <marker date="1443899668919" expanded="true" signature="718:819" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/controllers/AuthenticationController.php">
+    <entry file="file://$PROJECT_DIR$/WebShop/controllers/ProductsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#43#75#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/controllers/CategoriesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.846153">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-          <folding>
-            <element signature="e#42#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/views/layouts/navbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="185" column="9" selection-start-line="180" selection-start-column="7" selection-end-line="185" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineShop/views/home/home.php">
+    <entry file="file://$PROJECT_DIR$/WebShop/controllers/CategoriesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028764805">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state vertical-scroll-proportion="-9.192307">
+          <caret line="72" column="53" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/views/home/recent-products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1443939530771" expanded="true" signature="369:650" placeholder="..." />
+            <marker date="1443939530771" expanded="true" signature="422:646" placeholder="..." />
+            <marker date="1443939530771" expanded="true" signature="475:617" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebShop/models/view_models/UserViewModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7478849">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding />
         </state>
       </provider>

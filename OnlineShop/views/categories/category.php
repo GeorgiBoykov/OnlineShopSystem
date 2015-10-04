@@ -1,1 +1,0 @@
-<a href="#" class="btn btn-primary btn-lg"><?= $this->name ?></a>

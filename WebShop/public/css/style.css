@@ -1,0 +1,134 @@
+#wrapper{
+    width: 95%;
+    margin: 3% auto 0;
+}
+a:hover{
+    text-decoration: none;
+}
+#left-aside{
+    display: inline-block;
+    margin-top: 3%;
+    float: left;
+    width: 20%;
+}
+.form-box{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+.authentication{
+    margin: 50px auto 0;
+}
+.btn-lg{
+    margin: 10px;
+}
+
+
+#product{
+    width: 60%;
+    display: inline-block;
+}
+
+.product-full{
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 60%;
+    display: inline-block;
+}
+
+.products{
+    display: inline-block;
+    float: right;
+    margin-top: 3%;
+    width: 70%;
+}
+
+#recent-product {
+    margin: 1%;
+    display: inline-flex;
+    background-color: #fffefa;
+}
+#recent-product:hover {
+   background-color: #f4f8ff;
+}
+.dropdown-menu{
+    width: 200px;
+    padding: 0;
+}
+.btn-sm{
+    margin: 5px;
+}
+.list-group-item{
+    color: #122b40;
+    background-color: #fcfdfb;
+}
+.active{
+    text-align: center;
+}
+.checkout-form{
+    border: 1px solid #7a818b;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+}
+.checkout-button{
+    margin-top: 10px;
+}
+#add-product{
+    margin-left: 50px;
+}
+#user-profile{
+    width: 50%;
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+#remove-category{
+    display: inline;
+    float: right;
+}
+
+@media screen and (max-width: 860px) {
+    #left-aside{
+        display: block;
+        width: 100%;
+    }
+
+    .form-box{
+        width: 90%;
+        display: block;
+    }
+
+    #product{
+        width: 100%;
+    }
+
+    .product-full{
+        margin-left: 0;
+        width: 100%;
+    }
+    .products{
+        display: block;
+        margin-top: 3%;
+        width: 100%;
+    }
+
+    #recent-product {
+        display: block;
+    }
+
+    .checkout-form{
+        width: 100%;
+    }
+    #add-product{
+        display: inline-block;
+        width: 100%;
+        margin-left: 0;
+    }
+    #user-profile{
+        margin-left: 0;
+        width: 100%;
+    }
+}

@@ -4,15 +4,16 @@ namespace MVCFramework;
 
 class DbAdapter
 {
+    private static $_instance = null;
     private $_db = null;
     private $_connectionString = null;
     private $_username = null;
     private $_password = null;
     private $_config = null;
 
-    public function __construct($connectionString = null, $username = null, $password = null){
+    protected function __construct(){
         $this->_config = Config::getInstance();
-        $this->setConnectionData($connectionString, $username, $password);
+        $this->setConnectionData();
         $connectionData = $this->getConnectionData();
         try {
             $this->_db = new \PDO(
@@ -24,24 +25,21 @@ class DbAdapter
         }
     }
 
-    private function setConnectionData($connectionString, $username, $password){
-        if($connectionString){
-            $this->_connectionString = $connectionString;
-        } else {
-            $this->_connectionString = $this->_config->db['default']['connection_string'];
+    public static function getInstance(){
+        if(self::$_instance == null){
+            self::$_instance = new DbAdapter();
         }
 
-        if($username){
-            $this->_username = $username;
-        } else {
-            $this->_username = $this->_config->db['default']['username'];
-        }
+        return self::$_instance;
+    }
 
-        if($password){
-            $this->_password = $password;
-        } else {
-            $this->_password = $this->_config->db['default']['password'];
+    private function setConnectionData(){
+        if(is_null($this->_config->db)){
+            throw new \Exception("Missing 'db' configuration file.");
         }
+        $this->_connectionString = $this->_config->db['default']['connection_string'];
+        $this->_username = $this->_config->db['default']['username'];
+        $this->_password = $this->_config->db['default']['password'];
     }
 
     private function getConnectionData(){
@@ -52,10 +50,23 @@ class DbAdapter
         return array($this->_connectionString, $this->_username, $this->_password);
     }
 
-    public function getEntityById($fromTable, $id){
-        $sql = "SELECT * FROM $fromTable WHERE id = '$id'";
+    public function query($sql, $params = null){
         $query = $this->_db->prepare($sql);
 
+        try {
+            $query->execute($params);
+            $entities = $query->fetchAll();
+            return $entities;
+        } catch (\PDOException $e){
+            echo $e->getMessage();
+        }
+    }
+
+    public function getEntityById($fromTable, $id){
+        $sql = "SELECT * FROM $fromTable WHERE id = ?";
+
+        $query = $this->_db->prepare($sql);
+        $query->bindParam(1, $id);
         try {
             $query->execute();
             $entity = $query->fetch();
@@ -65,26 +76,54 @@ class DbAdapter
         }
     }
 
-    public function getEntity($fromTable, $whereEntityKeyValue){
+    public function getEntityPropertyById($fromTable, $id, $property){
+        $sql = "SELECT $property FROM $fromTable WHERE id = ?";
+
+        $query = $this->_db->prepare($sql);
+        $query->bindParam(1, $id);
+        try {
+            $query->execute();
+            $entity = $query->fetch();
+            return $entity;
+        } catch (\PDOException $e){
+            echo $e->getMessage();
+        }
+    }
+
+    public function getEntitiesByCriteria($fromTable, $whereEntityKeyValue, $orderBy = null, $ascOrDesc = 'asc', $limit = null){
         $entityColumnWhere = array_keys($whereEntityKeyValue)[0];
         $entityColumnWhereValue = $whereEntityKeyValue[$entityColumnWhere];
-        $sql = "SELECT * FROM $fromTable WHERE $entityColumnWhere = '$entityColumnWhereValue'";
+        $sql = "SELECT * FROM $fromTable WHERE $entityColumnWhere LIKE ?";
+
+        if(!is_null($orderBy)){
+            $sql.= " ORDER BY '$orderBy' $ascOrDesc";
+        }
+
+        if(!is_null($limit)){
+            $sql .= " LIMIT $limit";
+        }
+
         $query = $this->_db->prepare($sql);
+        $query->bindParam(1, $entityColumnWhereValue);
 
         try {
             $query->execute();
-            $entity = $query->fetch();
-            return $entity;
+            $entities = $query->fetchAll();
+            return $entities;
         } catch (\PDOException $e){
             echo $e->getMessage();
         }
     }
 
-    public function getAllEntities($fromTable, $limit = null){
+    public function getAllEntities($fromTable, $limit = null, $orderBy = null, $ascOrDesc = 'asc'){
         $sql = "SELECT * FROM $fromTable";
 
+        if(!is_null($orderBy)){
+            $sql.= " ORDER BY $orderBy $ascOrDesc";
+        }
+
         if(!is_null($limit)){
-            $sql = "SELECT * FROM $fromTable LIMIT $limit";
+            $sql .= " LIMIT $limit";
         }
 
         $query = $this->_db->prepare($sql);
@@ -129,7 +168,42 @@ class DbAdapter
         $this->_db->commit();
     }
 
-    public function updateEntity($inTable, $updateColumnData, $whereEntityKeyValue){
+    public function updateEntity($inTable, $updateData, $whereEntityKeyValue){
+        $entityColumnWhere = array_keys($whereEntityKeyValue)[0];
+        $entityColumnWhereValue = $whereEntityKeyValue[$entityColumnWhere];
+
+        function placeholders($text, $count=0, $separator=","){
+            $result = array();
+            if($count > 0){
+                for($x=0; $x<$count; $x++){
+                    $result[] = $text;
+                }
+            }
+
+            return implode($separator, $result);
+        }
+
+        $this->_db->beginTransaction();
+        $update_values = array();
+        foreach($updateData as $d){
+            $question_marks[] =  placeholders('?', sizeof($d));
+            array_push($update_values, $d);
+        }
+
+        $sql = "UPDATE $inTable SET (" . implode(",", array_keys($updateData) ) . ")
+        VALUES (" . implode(',', $question_marks).") WHERE $entityColumnWhere = ?";
+
+        $query = $this->_db->prepare($sql);
+        $query->bindParam(1, $entityColumnWhereValue);
+        try {
+            $query->execute($update_values);
+        } catch (\PDOException $e){
+            echo $e->getMessage();
+        }
+        $this->_db->commit();
+    }
+
+    public function updateEntityProperty($inTable, $updateColumnData, $whereEntityKeyValue){
         $updateColumn = array_keys($updateColumnData)[0];
         $updateValue = $updateColumnData[$updateColumn];
 
@@ -138,9 +212,10 @@ class DbAdapter
 
         $this->_db->beginTransaction();
 
-        $sql = "UPDATE $inTable SET $updateColumn = '$updateValue' WHERE $entityColumnWhere = '$entityColumnWhereValue'";
+        $sql = "UPDATE $inTable SET $updateColumn = '$updateValue' WHERE $entityColumnWhere = ?";
 
         $query = $this->_db->prepare($sql);
+        $query->bindParam(1, $entityColumnWhereValue);
         try {
             $query->execute();
         } catch (\PDOException $e){
@@ -155,9 +230,10 @@ class DbAdapter
 
         $this->_db->beginTransaction();
 
-        $sql = "DELETE FROM $inTable WHERE $entityColumnWhere = '$entityColumnWhereValue'";
+        $sql = "DELETE FROM $inTable WHERE $entityColumnWhere = ?";
 
         $query = $this->_db->prepare($sql);
+        $query->bindParam(1, $entityColumnWhereValue);
         try {
             $query->execute();
         } catch (\PDOException $e){

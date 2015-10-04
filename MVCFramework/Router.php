@@ -44,15 +44,15 @@ class Router
         if($areaName !== null){
             $controllerNamespace.='\areas\\'.$areaName;
         }
-        $controllerFullName = $controllerNamespace . '\Controllers\\' . $controllerName;
+        $controllerFullName = $controllerNamespace . '\controllers\\' . $controllerName;
         $controller = new $controllerFullName();
 
         // Check controller for authorization attribute (@Authorize)
-        $controllerAuthorization = count($this->getClassAnnotations($controller)[1]) > 0;
-        if($controllerAuthorization == true && !isset($_SESSION['user_id'])){
+        $controllerAuthorization = count($this->getClassAnnotations($controllerFullName)[1]) > 0;
+        if($controllerAuthorization == true && !isset($_SESSION['is_logged'])){
             throw new \Exception("Authorization has been denied for this controller");
         }
-        $actionName = $requestParts[2];
+        $actionName = strtolower($requestParts[2]);
         $customActionRoutes = $this->getAllActionsCustomRoutes($controller);
 
         // Check if user has declared custom route for this action
@@ -81,7 +81,7 @@ class Router
     private function parseRequest(){
         $requestParts = explode('/', parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
         $areaName = null;
-        $isInArea = in_array($requestParts[1], scandir('../areas'));
+        $isInArea = in_array(strtolower($requestParts[1]), scandir('../areas'));
         if($isInArea){
             $areaName = $requestParts[1];
         }
@@ -116,11 +116,16 @@ class Router
     private function callController($controller, $actionName, $params){
 
         if (method_exists($controller, $actionName)) {
-            $actionParamTypes = $this->getFuncParamsTypes($controller, $actionName);
-
             //checking if function expects binding model
-            if(strpos(strtolower($actionParamTypes[0]), 'bindingmodel') !== false){
-                $bindingModelClass = $actionParamTypes[0];
+            $isInstanceOfBindingModel = false;
+            $funcFirstParam = $this->getFuncFirstParam($controller, $actionName);
+            if(!is_null($funcFirstParam)){
+                $isInstanceOfBindingModel =
+                    $funcFirstParam->isSubclassOf(new \ReflectionClass( 'MVCFramework\BaseBindingModel' ));
+            }
+
+            if($isInstanceOfBindingModel){
+                $bindingModelClass = $funcFirstParam->name;
                 $bindingModel = new $bindingModelClass($_POST);
 
                 //$controller->{$action}($bindingModel);
@@ -134,14 +139,14 @@ class Router
         }
     }
 
-    private function getFuncParamsTypes($class, $func) {
+    private function getFuncFirstParam($class, $func) {
         $refFunc =  new \ReflectionMethod($class, $func);
-        $params = [];
-        foreach($refFunc->getParameters() as $param) {
-            array_push($params, $param->getClass()->name);
+        $funcParam = $refFunc->getParameters();
+        if(!is_null($funcParam[0])){
+            return $funcParam[0]->getClass();
         }
 
-        return $params;
+        return null;
     }
 
     private function getAllClassesCustomRoutes() {
@@ -149,13 +154,12 @@ class Router
         $declaredControllerFiles = scandir('../controllers');
         foreach($declaredControllerFiles as $fileName){
             if(strpos($fileName, '.php') != false){
-                $controllerClassName = (substr($fileName,0,strlen($fileName)-4));
-                $controllerFullClassName =
-                    $this->_config->app['namespaces']['ROOT_NAMESPACE'] . '\Controllers\\' .$controllerClassName;
-                $controller = new $controllerFullClassName();
-                $classCustomRoute = $this->getClassAnnotations($controller)[0];
+                $controllerName = (substr($fileName,0,strlen($fileName)-4));
+                $controllerFullName = $this->_config->app['namespaces']['ROOT_NAMESPACE']
+                     . '\controllers\\' .$controllerName;
+                $classCustomRoute = $this->getClassAnnotations($controllerFullName)[0];
                 if(trim($classCustomRoute) != ""){
-                    $classesRoutes[$classCustomRoute] = $controllerClassName;
+                    $classesRoutes[$classCustomRoute] = $controllerName;
                 }
             }
         }
@@ -166,7 +170,7 @@ class Router
     private function getClassAnnotations($class) {
         $refClass = new \ReflectionClass($class);
         $doc = $refClass->getDocComment();
-        preg_match_all("/@Route\(\"(.+)\"\)/", $doc, $routes);
+        preg_match_all("/@Route\([\"'](.+)[\"']\)/", $doc, $routes);
         preg_match_all("/@Authorize/", $doc, $authorizations);
 
         return array($routes[1][0], $authorizations[0]);
@@ -179,7 +183,7 @@ class Router
         $funcsRoutes = [];
         foreach($refFuncs as $refFunc){
             $doc = $refFunc->getDocComment();
-            preg_match_all("/@Route\(\"(.+)\"\)/", $doc, $routes);
+            preg_match_all("/@Route\([\"'](.+)[\"']\)/", $doc, $routes);
             if(count($routes[1]) > 0){
                 $customRoute = $routes[1][0];
                 $funcsRoutes[$customRoute] =  $refFunc->getName();

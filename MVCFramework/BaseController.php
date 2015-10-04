@@ -39,4 +39,40 @@ abstract class BaseController{
     public function isLogged(){
         return isset($_SESSION['user_id']);
     }
+
+    /**
+     * @param $toEscape
+     * @return BaseViewModel
+     */
+    public function escape(&$toEscape){
+        if(is_array($toEscape)){
+            foreach($toEscape as $key => &$value){
+                if(is_object($value)){
+                    $reflection = new \ReflectionClass($value);
+                    $properties = $reflection->getProperties();
+
+                    foreach($properties as &$property){
+                        $property->setAccessible(true);
+                        $property->setValue($value, $this->escape($property->getValue($value)));
+                    }
+                } else if(is_array($value)){
+                    $this->escape($value);
+                } else{
+                    $value = htmlspecialchars($value);
+                }
+            }
+        } else if(is_object($toEscape)){
+            $reflection = new \ReflectionClass($toEscape);
+            $properties = $reflection->getProperties();
+
+            foreach($properties as &$property){
+                $property->setAccessible(true);
+                $property->setValue($toEscape, $this->escape($property->getValue($toEscape)));
+            }
+        } else{
+            $toEscape = htmlspecialchars($toEscape);
+        }
+
+        return $toEscape;
+    }
 }
